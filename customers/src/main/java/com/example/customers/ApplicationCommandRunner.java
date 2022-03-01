@@ -30,6 +30,8 @@ public class ApplicationCommandRunner implements CommandLineRunner {
 		customerservice.save(customer4);
 	
 		logger.info(customerservice.findAll());
+		
+		//customerservice.findAndDeleteById("1");
 	
 	}
 }
